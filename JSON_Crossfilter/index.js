@@ -3,7 +3,7 @@ d3.json('./perCapitaLandUseRequirements.json', function(dataIn){
 
     console.log(dataIn);
 
-    /*
+
     //set up initial crossfilter - this just takes a look at the data and catalogs it to make things more efficient
     cf = crossfilter(dataIn);
 
@@ -12,11 +12,12 @@ d3.json('./perCapitaLandUseRequirements.json', function(dataIn){
         return d.countryCode;
     });
 
+
     //filter the data, returning everything with the country code "US". (Could also use this to get top 10, etc)
     usData = byCountryCode.filterExact("US").top(Infinity);
 
     console.log(usData);
 
-    */
+
 
 });
